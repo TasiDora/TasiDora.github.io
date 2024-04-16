@@ -32,6 +32,10 @@ h2,h3{
     color: #FDE55F;
     text-transform: uppercase;
 }
+h4{
+    color: #FDE55F;
+    text-decoration: underline;
+}
 #logo{
     width: 50%;    
 }
@@ -62,7 +66,9 @@ th{
     color: black;
 }
 td{
+    align-items: center;
     border: 5px solid white;
-    padding-left: 100px;
-    padding-right: 100px;
+    font-size: 0.7em;
+    padding-left: 40px;
+    padding-right: 40px;
 }
