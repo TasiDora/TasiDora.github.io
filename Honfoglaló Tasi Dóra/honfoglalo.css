@@ -52,3 +52,17 @@ a{
 a:hover{
     color: #FDE55F;
 }
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    border: 5px solid white;
+    background-color: #FDE55F;
+    color: black;
+}
+td{
+    border: 5px solid white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
