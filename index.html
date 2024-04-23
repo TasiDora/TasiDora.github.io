@@ -7,29 +7,75 @@
     <style>
         body{
             background-color: rgb(206, 243, 243);
-            text-align: center;
         }
         a:hover,
         a:visited,
         a:link,
         a:active{
-            color: gray;
+            color: rgba(12, 27, 69, 0.801);
         }
         h1{
             font-style: italic;
+            text-align: center;
         }
         h3{
             text-decoration: underline;
+            font-style: italic;
+        }
+        ul .pont{
+            list-style-type: circle;
+        }
+        #munkak{
+            margin: 30px 150px 30px 600px;
+            width: 500px;
+            border: 2px dashed black;
+        }
+        #munkak h3{
+            margin: 10px;
+        }
+        #munkak ul{
+            margin: 5px 0 10px 10px;
+            list-style: square;
+        }
+        #alja{
+            margin: 30px 50px;
+            width: 600px;
+            height: 150px;
+            border: 2px dashed black;
+        }
+        #alja h3{
+            margin: 5px 0 0 10px;
+        }
+        #kep{
+            width: 200px;
+            height: 200px;
+            margin: 30px 150px 30px 900px;
+            border: 2px dashed black;
+            border-radius: 50%;
         }
     </style>
 </head>
 <body>
     <h1>Tasi Dóra</h1>
-    <h3>Eddigi munkáim:</h3>
-        <p><a href="/Zengő hegy/index.html" target="_blank">-Zengő hegy</a></p>
-        <p><a href="/gitlabor3/index.html" target="_blank">-Választott feladat</a></p>
-        <p><a href="/Nyelviskola/index.html" target="_blank">-Nyelviskola</a></p>
-        <p><a href="/Honfoglaló Tasi Dóra/index.html" target="_blank">-Honfoglaló</a></p>
-        <p><a href="/Age Calculator/index.html" target="_blank">-Age Calculator</a></p>
+        <div id="munkak">
+            <h3>Eddigi munkáim:</h3>
+                <ul>
+                <li><a href="/Zengő hegy/index.html" target="_blank">Zengő hegy</a></li>
+                <li><a href="/gitlabor3/index.html" target="_blank">Iskolai könyvtár</a></li>
+                <li><a href="/Nyelviskola/index.html" target="_blank">Nyelviskola</a></li>
+                <li><a href="/Honfoglaló Tasi Dóra/index.html" target="_blank">Honfoglaló</a></li>
+                <li><a href="/Age Calculator/index.html" target="_blank">Age Calculator</a></li>
+                </ul>
+        </div>
+        <div id="alja">
+            <h3>Rólam:</h3>
+            <ul class="pont">
+                <li>DSZC Mechwart András Gépipari és Informatikai Technikum 9.F-es tanulója</li>
+                <li>Koppány Liget Lovas Sportegyesület lovasa</li>
+                <li>Leiner Laura rendszeres olvasója</li>
+                <li>Magyar zenék megszállott hallgatója</li>
+            </ul>
+        </div>
+        <div id="kep"><img src="mehwartlogo.png" alt="" width="200px" height="200px"></div>
 </body>
 </html>
